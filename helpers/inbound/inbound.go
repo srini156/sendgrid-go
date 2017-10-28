@@ -186,7 +186,7 @@ func main() {
 			log.Fatal("Check your Filepath. ", err)
 		}
 		Headers := map[string]string{
-			"User-Agent": 	"SendGrid-Test",
+			"User-Agent":   "SendGrid-Test",
 			"Content-Type": "multipart/form-data; boundary=xYzZY",
 		}
 		method := rest.Post

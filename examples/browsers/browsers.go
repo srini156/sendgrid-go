@@ -8,7 +8,6 @@ import (
 	"github.com/sendgrid/sendgrid-go"
 )
 
-
 // Retrieveemailstatisticsbybrowser Retrieve email statistics by browser.
 // GET /browsers/stats
 func Retrieveemailstatisticsbybrowser() {
